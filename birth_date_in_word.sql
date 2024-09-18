@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 15, 2024 at 11:34 AM
+-- Generation Time: Sep 18, 2024 at 06:11 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -42,7 +42,11 @@ INSERT INTO `jjall` (`id`, `dob`, `b_date`, `b_date_word`) VALUES
 (3, '2024-09-15', '150924', 'Fifteenth September Two Thousand and Twenty Four '),
 (4, '2024-09-16', '160924', 'Sixteenth September Two Thousand and Twenty Four '),
 (5, '2014-09-16', '160914', 'Sixteenth September Two Thousand and Fourteen '),
-(6, '2024-09-18', '180924', 'Eighteenth September Two Thousand and Twenty Four ');
+(6, '2024-09-18', '180924', 'Eighteenth September Two Thousand and Twenty Four '),
+(7, '2024-09-18', '180924', 'Eighteenth September Two Thousand and Twenty Four '),
+(8, '2014-09-08', '080914', 'Eighth September Two Thousand and Fourteen '),
+(9, '2014-09-16', '160914', 'Sixteenth September Two Thousand and Fourteen '),
+(10, '2014-09-16', '160914', 'Sixteenth September Two Thousand and Fourteen ');
 
 --
 -- Indexes for dumped tables
@@ -62,7 +66,7 @@ ALTER TABLE `jjall`
 -- AUTO_INCREMENT for table `jjall`
 --
 ALTER TABLE `jjall`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

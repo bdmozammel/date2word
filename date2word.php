@@ -30,8 +30,7 @@ else{
 $conn->close();
 
 	// Extract day, month, and year 2000-01-01 to 010100
-	function extractDOB($dt=null){
-		
+		function extractDOB($dt=null){
 		$date = date($dt); 
 		$day = date('d', strtotime($date)); 
 		$month = date('m', strtotime($date)); 
